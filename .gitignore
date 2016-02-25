@@ -12,3 +12,6 @@ coverage
 lastest.dump
 
 .ruby-version
+
+/.idea
+.rbenv-gemsets
