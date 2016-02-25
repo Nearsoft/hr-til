@@ -20,4 +20,4 @@ staging:
 
 production:
   <<: *default
-  url: postgres://zczpgamspjbdiq:XxWsODPs62pI-a-de9WrG8Nwm-@ec2-54-235-145-226.compute-1.amazonaws.com:5432/dckcpf4s2t2vt3
+  database: hr-til_development
