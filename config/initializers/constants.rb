@@ -1,1 +1,1 @@
-SITE_NAME = 'Today I Learned in Nearsoft'
+SITE_NAME = 'Today I Learned at Nearsoft'
