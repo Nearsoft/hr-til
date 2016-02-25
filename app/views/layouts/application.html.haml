@@ -11,10 +11,10 @@
     = favicon_link_tag 'favicon.png'
     = yield :head
     %meta(name="twitter:card" content="summary_large_image")
-    %meta(name="twitter:site" content="@hashrockettil")
-    %meta(name="twitter:creator" content="@hashrockettil")
+    %meta(name="twitter:site" content="@tilns")
+    %meta(name="twitter:creator" content="@tilns")
     %meta(name="twitter:title" content="Today I Learned: a Hashrocket Project")
-    %meta(name="twitter:description" content="TIL is a project by Hashrocket to catalogue the sharing & accumulation of knowledge as it happens day-to-day. Posts have a 200-word limit and any Hashrocket team member can contribute. We hope you enjoy learning along with us.")
+    %meta(name="twitter:description" content="TIL NS is a fork if the repository [Hashrocket](https://github.com/hashrocket/hr-til) that catalogues the sharing & accumulation of knowledge as it happens day-to-day. Posts have a 200-word limit and any Nearsoft team member can contribute. We hope you enjoy learning along with us.")
     %meta(name="twitter:image" content="//til.hashrocket.com/assets/til_twittercard.png")
   %body
     %header.site_head
@@ -38,10 +38,10 @@
       .site_about__content
         .copy
           :markdown
-            TIL is an open-source project by the team at [Hashrocket](https://hashrocket.com) that catalogues the sharing & accumulation of knowledge as it happens day-to-day. Posts have a 200-word limit and any Hashrocket team member can contribute. We hope you enjoy learning along with us.
+            TIL NS is a fork if the repository [Hashrocket](https://github.com/hashrocket/hr-til) that catalogues the sharing & accumulation of knowledge as it happens day-to-day. Posts have a 200-word limit and any Nearsoft team member can contribute. We hope you enjoy learning along with us.
         %ul.social
-          %li= link_to "/hashrockettil", "https://twitter.com/hashrockettil", class: "social_twitter"
-          %li= link_to "/hashrocket/hr-til", "https://github.com/hashrocket/hr-til", class: "social_github"
+          %li= link_to "/tilns", "https://twitter.com/tilns", class: "social_twitter"
+          %li= link_to "/imarban/hr-til", "https://github.com/imarban/hr-til", class: "social_github"
 
     %aside.site_statistics
       = link_to "statistics", statistics_path, class: "aside_toggle"
@@ -55,11 +55,11 @@
 
     %footer.site_footer
       %p.site_footer_social
-        = link_to "Hashrocket TIL on Twitter", "https://twitter.com/hashrockettil", class: 'footer_twitter'
-        = link_to 'Hashrocket', 'https://hashrocket.com', class: 'footer_hashrocket'
-        = link_to "Hashrocket TIL on Github", "https://github.com/hashrocket/hr-til", class: 'footer_github'
+        = link_to "Nearsoft TIL on Twitter", "https://twitter.com/tilns", class: 'footer_twitter'
+        = link_to 'Nearsoft', 'https://nearsoft.com', class: 'footer_hashrocket'
+        = link_to "Nearsoft TIL on Github", "https://github.com/imarban/hr-til", class: 'footer_github'
       %p
-        curated in Jacksonville and Chicagos
+        curated in Mexico City
         %br/
         by
-        = link_to 'Hashrocket', 'https://hashrocket.com'
+        = link_to 'Nearsoft', 'https://nearsoft.com'
