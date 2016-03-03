@@ -28,7 +28,7 @@ module PostHelper
     url = Rails.configuration.server_url + post_path(post)
 
     content_tag(:a, 'Tweet', href: 'http://twitter.com/share', class: 'twitter-share-button',
-                             'data-text': "Today I learned: #{title}", 'data-via': "#{handle}",
+                             'data-text': "Today I learned at Nearsoft: #{title}", 'data-via': "#{handle}",
                              'data-hashtags': "#{channel}", 'data-url': "#{url}")
   end
 end
