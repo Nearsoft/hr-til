@@ -5,6 +5,8 @@ default: &default
 
 development:
   <<: *default
+  host: localhost
+  username: postgres
   database: hr-til_development
 
 test: &test
